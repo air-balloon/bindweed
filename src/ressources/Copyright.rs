@@ -1,5 +1,5 @@
 pub struct Copyright {
-    name: &str,
+    name: &'static str,
     year: Option<((u8, u8), u8)>,
-    email: Option<&str>,
+    email: Option<&'static str>,
 }
