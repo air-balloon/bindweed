@@ -5,6 +5,6 @@ pub struct HeaderParagraph {
     source: Option<&str>,
     disclaimer: Option<&str>,
     comment: Option<&str>,
-    license: Option<&str>,
+    license: Option<Licence>,
     copyright: Option<&str>,
 }

@@ -1,4 +1,4 @@
 pub struct StandAloneParagraph {
-    license: &str,
+    license: Licence,
     comment: Option<&str>,
 }
